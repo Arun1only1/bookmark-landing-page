@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className='relative'>
+    <section className='relative '>
       <div className='container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28'>
         <div className='flex flex-1 flex-col items-center lg:items-start'>
           <h2 className='text-bookmark-blue text-3xl md:text-4xl lg:text-5xl text-center lg:text-left mb-6'>
@@ -33,7 +33,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className='hidden md:block overflow-hidden bg-bookmark-purple rounded-l-full absolute h-80 w-2/4 top-32 right-0 lg:-bottom-28 lg:-right-36'></div>
+      <div className='hidden md:block  bg-bookmark-purple rounded-l-full absolute h-80 w-2/4 top-32 right-0 lg:-bottom-28 lg:-right-36 overflow-hidden'></div>
     </section>
   );
 };

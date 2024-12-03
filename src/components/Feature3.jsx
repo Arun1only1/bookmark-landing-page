@@ -3,8 +3,6 @@ import React from 'react';
 const Feature3 = () => {
   return (
     <section className='bg-bookmark-white py-20 mt-20 lg:mt-52 relative'>
-      {/* heading */}
-
       {/* Feature 1 */}
       <div className='relative mt-20 lg:mt-24'>
         <div className='container flex flex-col lg:flex-row items-center justify-center gap-x-24'>
